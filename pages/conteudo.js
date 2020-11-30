@@ -71,6 +71,20 @@ function Conteudo() {
                     <button onClick={mostrarConteudo3} id="mostrarConteudo3" style={{ fontFamily: 'roboto', marginTop: '5%', marginBottom: '3%', textAlign: "center" }} className="btn btn-primary float-right">Saiba mais</button>
                 </div>
             </div>
+            <hr></hr>
+            <div className="row flex-row-reverse" style={{ marginTop: '15%' }} >
+                <div className="col-md-6 ">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://jonz.com.br/bzuzarte/conteudo/incontinencia_urinaria_de_esforco.mp4"></iframe>
+                    </div>
+                </div>
+                <div className="col-md-6 ">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://jonz.com.br/bzuzarte/conteudo/importancia_hidratacao.mp4"></iframe>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     )
 }
@@ -80,10 +94,10 @@ function mostrarConteudo1() {
     // Meus scripts
 
     $(document).ready(function () {
-       
-            $("#conteudo1").css("display", "block");
-            $("#mostrarConteudo1").hide();
-    
+
+        $("#conteudo1").css("display", "block");
+        $("#mostrarConteudo1").hide();
+
 
     });
 }
@@ -91,10 +105,10 @@ function mostrarConteudo2() {
     // Meus scripts
 
     $(document).ready(function () {
-       
-            $("#conteudo2").css("display", "block");
-            $("#mostrarConteudo2").hide();
-    
+
+        $("#conteudo2").css("display", "block");
+        $("#mostrarConteudo2").hide();
+
 
     });
 }
@@ -103,10 +117,10 @@ function mostrarConteudo3() {
     // Meus scripts
 
     $(document).ready(function () {
-       
-            $("#conteudo3").css("display", "block");
-            $("#mostrarConteudo3").hide();
-    
+
+        $("#conteudo3").css("display", "block");
+        $("#mostrarConteudo3").hide();
+
 
     });
 }
