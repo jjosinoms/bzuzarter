@@ -5,7 +5,6 @@ function Menu () {
         <div >
             <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{borderColor: 'red' ,borderStyle :'groove' , borderTop: 'none', borderLeft:'none', borderRight:'none',backgroundRepeat: 'no-repeat',}}>
                 <img src="https://jonz.com.br/bzuzarte/logo_Barbara.png" width="8%" style={{marginLeft:'10%', borderRadius: "50%"}}></img>
-                {/* <a className="navbar-brand" href="#">Barbara Zuzarte</a> */}
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

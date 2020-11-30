@@ -22,8 +22,6 @@ function PaginaInicial() {
 
                 </div>
             </div>
-            {/* <h3>Olá, eu sou a Barbara =)</h3> */}
-
         </div>
     )
 }
