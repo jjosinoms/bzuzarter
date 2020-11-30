@@ -1,6 +1,9 @@
 import React from 'react'
 
 function Menu () {
+
+
+
     return (
         <div >
             <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{borderColor: 'red' ,borderStyle :'groove' , borderTop: 'none', borderLeft:'none', borderRight:'none',backgroundRepeat: 'no-repeat',}}>
@@ -34,6 +37,10 @@ function Menu () {
             </nav>
         </div>
     )
+
+
 }
+
+
 
 export default Menu;
