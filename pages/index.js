@@ -1,4 +1,4 @@
-import PaginaInicial from './paginaInicial/PaginaInicial';
+import PaginaInicial from './paginaInicial';
 
 
 function Home() {
