@@ -3,7 +3,7 @@ import PaginaInicial from './paginaInicial';
 
 function Home() {
     return (
-        <div >
+        <div className="container">
 
             <PaginaInicial />
 

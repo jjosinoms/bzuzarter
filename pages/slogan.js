@@ -39,7 +39,7 @@ function Slogan() {
                     </div>
 
                 </div>
-                <div className="col-md-6 float-right" style={{ marginTop: '2%' }}>
+                <div className="col-md-6" style={{  }}>
                     <img src="https://jonz.com.br/bzuzarte/foto_principal_sem_fundo.png" style={{ textAlign: "center", borderRadius: '50%' }} width="75%" />
                 </div>
             </div>
@@ -51,7 +51,7 @@ function Slogan() {
                 </div>
             </div>
             {/* Segundo bloco de itens */}
-            <div className="row" style={{ marginTop: '15%' }} >
+            <div id="noticias" className="row" style={{ marginTop: '15%' }} >
                 <div className="col-md-4">
                     <div className="jumbotron jumbotron-fluid">
                         <div className="container">

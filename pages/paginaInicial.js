@@ -1,11 +1,12 @@
 import React from 'react'
 import Menu from './menu'
 import Slogan from './slogan'
+import Rodape from './rodape'
 
 function PaginaInicial() {
     return (
         <div>
-
+            <link rel="stylesheet" href='../'></link>
             <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
 
@@ -19,6 +20,7 @@ function PaginaInicial() {
                 <div className="col-md-12" >
                     <Menu />
                     <Slogan />
+                    <Rodape />
 
                 </div>
             </div>
