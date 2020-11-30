@@ -7,8 +7,9 @@ function Rodape() {
             <div className="row">
                 <div className="col-md-12">
                     <footer class="footer">
-                        <div class="container">
-                            <span class="text-muted">Endereço: // E-Mail: // Telefone: // Instagram: .</span>
+                        <div class="container" style={{textAlign:"center", marginBottom:'3%'}}>
+                            <hr></hr>
+                            <span style={{ fontFamily: 'roboto'}} class="text-muted">Endereço:A. Vicente de Carvalho, 909, Sala 1012 //<a href="bzuzarte@gmail.com"> E-Mail</a>  // Telefone: (21)98897-0094 // <a href="https://www.instagram.com/bzuzartepelvica/">Instagram </a>.</span>
                         </div>
                     </footer>
                 </div>

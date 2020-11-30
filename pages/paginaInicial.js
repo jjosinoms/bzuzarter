@@ -2,6 +2,7 @@ import React from 'react'
 import Menu from './menu'
 import Slogan from './slogan'
 import Rodape from './rodape'
+import Conteudo from './conteudo'
 
 function PaginaInicial() {
     return (
@@ -20,6 +21,7 @@ function PaginaInicial() {
                 <div className="col-md-12" >
                     <Menu />
                     <Slogan />
+                    <Conteudo />
                     <Rodape />
 
                 </div>
