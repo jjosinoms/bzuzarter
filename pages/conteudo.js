@@ -18,7 +18,7 @@ function Conteudo() {
             </div>
             <div className="row" style={{ marginTop: '15%' }} >
                 <div className="col-md-6">
-                    <img width="100%" src="https://jonz.com.br/bzuzarte/conteudo/pq_devo_passar_por_uma_avaliacao.jpg" />
+                    <img style={{borderRadius:'10%'}} width="100%" src="https://jonz.com.br/bzuzarte/conteudo/pq_devo_passar_por_uma_avaliacao.jpg" />
                 </div>
                 <div className="col-md-6">
                     <p style={{ fontFamily: 'roboto', marginTop: '3%', marginBottom: '3%', textAlign: "center" }}>Muitos pacientes me perguntam por que precisam ser avaliados antes do tratamento ser iniciado ...</p>
@@ -45,12 +45,12 @@ function Conteudo() {
                     <button style={{ fontFamily: 'roboto', marginTop: '3%', marginBottom: '3%', textAlign: "center" }} className="btn btn-primary float-right">Saiba mais</button>
                 </div>
                 <div className="col-md-6">
-                    <img width="100%" src="https://jonz.com.br/bzuzarte/conteudo/o_que_e_fisioterapia_pelvica.jpg" />
+                    <img style={{borderRadius:'10%'}} width="100%" src="https://jonz.com.br/bzuzarte/conteudo/o_que_e_fisioterapia_pelvica.jpg" />
                 </div>
             </div>
             <div className="row" style={{ marginTop: '15%' }} >
                 <div className="col-md-6">
-                    <img width="100%" src="https://jonz.com.br/bzuzarte/conteudo/anorgasmia_incapacidade_de_atingir_orgasmo.jpg" />
+                    <img style={{borderRadius:'10%'}} width="100%" src="https://jonz.com.br/bzuzarte/conteudo/anorgasmia_incapacidade_de_atingir_orgasmo.jpg" />
                 </div>
                 <div className="col-md-6">
 
