@@ -61,8 +61,8 @@ function Conteudo() {
                 <div className="col-md-6">
                     <p style={{ display: 'block', fontFamily: 'roboto', marginTop: '3%', marginBottom: '3%', textAlign: "center" }}>❇️Você já ouviu falar em anorgasmia? ❇️
                     .
-                    ⚠️ Para Parisotto (2010), a anorgasmia é descrita como falta de prazer orgástico depois de um tempo de excitação normal. Medeiros; Braz (2004) definem </p>
-                    <p id="conteudo3" style={{ fontFamily: 'roboto', display: 'none' }}> como a dificuldade de alcançar o orgasmo. Estes ainda enfatizam que a anorgasmia não deve ser confundida com frigidez, pois no caso da mulher que é anorgásmica há interesse sexual e todas as respostas satisfatórias para que o mesmo ocorra. Pratas; Dias (2008), salientam que, em relação, à mulher atingir o clímax em uma relação sexual ocorre contrações da musculatura genital, quando este fenômeno não ocorre a mulher apresenta um quadro de anorgasmia.
+                    ⚠️ Para Parisotto (2010), a anorgasmia é descrita como falta de prazer orgástico depois de um tempo de excitação normal. </p>
+                    <p id="conteudo3" style={{ fontFamily: 'roboto', display: 'none' }}>Medeiros; Braz (2004) definem  como a dificuldade de alcançar o orgasmo. Estes ainda enfatizam que a anorgasmia não deve ser confundida com frigidez, pois no caso da mulher que é anorgásmica há interesse sexual e todas as respostas satisfatórias para que o mesmo ocorra. Pratas; Dias (2008), salientam que, em relação, à mulher atingir o clímax em uma relação sexual ocorre contrações da musculatura genital, quando este fenômeno não ocorre a mulher apresenta um quadro de anorgasmia.
                     .
                     ⚠️ Para Galvão, Abuchaim e Colaboradores (2011), a anorgasmia pode ser dividida em primária e secundária. Sua forma primária é quando uma mulher nunca experimentou um orgasmo, enquanto que, na secundária ela possuía orgasmos, só que, de alguma forma passou a não mais apresentá-los.
                     .
