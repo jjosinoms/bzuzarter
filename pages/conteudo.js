@@ -79,12 +79,12 @@ function Conteudo() {
             <div className="row flex-row-reverse" style={{ marginTop: '5%' }} >
                 <div className="col-md-6" style={{ padding: '5%' }} >
                     <div className="embed-responsive embed-responsive-16by9">
-                        <iframe className="embed-responsive-item" src="https://jonz.com.br/bzuzarte/conteudo/incontinencia_urinaria_de_esforco.mp4"></iframe>
+                        <iframe preload="none" className="embed-responsive-item" src="https://jonz.com.br/bzuzarte/conteudo/incontinencia_urinaria_de_esforco.mp4"></iframe>
                     </div>
                 </div>
                 <div className="col-md-6 " style={{ padding: '5%' }}>
                     <div className="embed-responsive embed-responsive-16by9">
-                        <iframe className="embed-responsive-item" src="https://jonz.com.br/bzuzarte/conteudo/importancia_hidratacao.mp4"></iframe>
+                        <iframe preload="none" className="embed-responsive-item" src="https://jonz.com.br/bzuzarte/conteudo/importancia_hidratacao.mp4"></iframe>
                     </div>
                 </div>
             </div>
