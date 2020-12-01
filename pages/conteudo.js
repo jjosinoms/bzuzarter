@@ -12,18 +12,18 @@ function Conteudo() {
                     </div>
                 </div>
             </div>
-            <hr></hr>
+            <hr style={{ marginTop: '5%' }}></hr>
             {/* Segundo bloco de itens */}
             <div id="noticias" className="col-md-12">
                 <h2 style={{ textAlign: "center", fontFamily: 'roboto', marginTop: '3%' }}>Notícias</h2>
             </div>
-            <div className="row flex-row" style={{ marginTop: '15%',  }} >
+            <div className="row flex-row" style={{ marginTop: '15%', }} >
                 <div className="col-md-6">
                     <img style={{ borderRadius: '10%' }} width="100%" src="https://jonz.com.br/bzuzarte/conteudo/pq_devo_passar_por_uma_avaliacao.jpg" />
                 </div>
                 <div className="col-md-6">
-                    <p style={{ fontFamily: 'roboto', marginTop: '3%', marginBottom: '3%', textAlign: "center" }}>Muitos pacientes me perguntam por que precisam ser avaliados antes do tratamento ser iniciado </p>
-                    <p id="conteudo1" style={{ fontFamily: 'roboto', display: 'none' }}> e sempre me pego tendo que explicar que a avaliação, em qualquer área da fisioterapia, é tão importante quanto o tratamento em si. É através da avaliação que conseguimos entender o que está acontecendo com o Assoalho Pélvico, e até onde podemos, ou não, reabilitar e reestabelecer a funcionalidade dessa musculatura.
+                    <p style={{ fontFamily: 'roboto', marginTop: '3%', marginBottom: '3%', textAlign: "center" }}>Muitos pacientes me perguntam por que precisam ser avaliados antes do tratamento ser iniciado e sempre me pego tendo que explicar que a avaliação , em qualquer área da fisioterapia, é tão importante quanto o tratamento em si. </p>
+                    <p id="conteudo1" style={{ fontFamily: 'roboto', display: 'none' }}> É através da avaliação que conseguimos entender o que está acontecendo com o Assoalho Pélvico, e até onde podemos, ou não, reabilitar e reestabelecer a funcionalidade dessa musculatura.
                     .
                     Dentro da anamnese percebemos como traumas anteriores, hábitos de vida, histórico familiar, medicações, dentre outros fatores, podem influenciar na condição atual. Através do exame físico percebemos também o que precisa ser trabalhado durante o tratamento, como força, resistência, relaxamento muscular, coordenação, etc.
                     .
@@ -31,7 +31,7 @@ function Conteudo() {
                     .
                     E você? Agora que já sabe a importância da avaliação, está esperando o que pra marcar a sua?</p>
                     <button onClick={mostrarConteudo1} id="mostrarConteudo1" style={{ fontFamily: 'roboto', marginTop: '3%', marginBottom: '5%', textAlign: "center" }} className="btn btn-danger float-right">Saiba mais</button>
-                    <button onClick={esconderConteudo1} id="esconderConteudo1" style={{ fontFamily: 'roboto', marginTop: '3%', marginBottom: '5%', textAlign: "center", display:'none' }} className="btn btn-light float-right">Mostrar menos</button>
+                    <button onClick={esconderConteudo1} id="esconderConteudo1" style={{ fontFamily: 'roboto', marginTop: '3%', marginBottom: '5%', textAlign: "center", display: 'none' }} className="btn btn-light float-right">Mostrar menos</button>
                 </div>
 
             </div>
@@ -49,8 +49,8 @@ function Conteudo() {
                     .
                     E você? Precisa de tratamento? Conhece alguém que precisa? Agende uma avaliação e inicie já o seu!! 🌺</p>
                     <button onClick={mostrarConteudo2} id="mostrarConteudo2" style={{ fontFamily: 'roboto', marginTop: '3%', marginBottom: '5%', textAlign: "center" }} className="btn btn-danger float-right">Saiba mais</button>
-                    <button onClick={esconderConteudo2} id="esconderConteudo2" style={{ fontFamily: 'roboto', marginTop: '3%', marginBottom: '5%', textAlign: "center", display:'none' }} className="btn btn-light float-right">Mostrar menos</button>
-                    
+                    <button onClick={esconderConteudo2} id="esconderConteudo2" style={{ fontFamily: 'roboto', marginTop: '3%', marginBottom: '5%', textAlign: "center", display: 'none' }} className="btn btn-light float-right">Mostrar menos</button>
+
                 </div>
 
             </div>
@@ -72,17 +72,17 @@ function Conteudo() {
                     .<br></br><br></br>
                         <b >Fonte: Dias, et. al. Anorgasmia Feminina. Revista Interfaces: Saúde, Humanas e Tecnologia, Vol. 2, Nº 6, Ano 2, 2014</b></p>
                     <button onClick={mostrarConteudo3} id="mostrarConteudo3" style={{ fontFamily: 'roboto', marginTop: '5%', marginBottom: '3%', textAlign: "center" }} className="btn btn-danger float-right">Saiba mais</button>
-                    <button onClick={esconderConteudo3} id="esconderConteudo3" style={{ fontFamily: 'roboto', marginTop: '5%', marginBottom: '3%', textAlign: "center", display:'none' }} className="btn btn-light float-right">Mostrar menos</button>
+                    <button onClick={esconderConteudo3} id="esconderConteudo3" style={{ fontFamily: 'roboto', marginTop: '5%', marginBottom: '3%', textAlign: "center", display: 'none' }} className="btn btn-light float-right">Mostrar menos</button>
                 </div>
             </div>
-            <hr></hr>
-            <div className="row flex-row-reverse" style={{ marginTop: '15%' }} >
-                <div className="col-md-6 ">
+            <hr style={{ marginTop: '5%' }}></hr>
+            <div className="row flex-row-reverse" style={{ marginTop: '5%' }} >
+                <div className="col-md-6" style={{ padding: '5%' }} >
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://jonz.com.br/bzuzarte/conteudo/incontinencia_urinaria_de_esforco.mp4"></iframe>
                     </div>
                 </div>
-                <div className="col-md-6 ">
+                <div className="col-md-6 " style={{ padding: '5%' }}>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://jonz.com.br/bzuzarte/conteudo/importancia_hidratacao.mp4"></iframe>
                     </div>
