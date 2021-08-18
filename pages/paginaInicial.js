@@ -1,9 +1,12 @@
 import React from 'react'
 import Menu from './menu'
-import Slogan from './slogan'
-import Rodape from './rodape'
-import Conteudo from './conteudo'
 import PrimeiraParte from './primeiraParte'
+import Servicos from './servicos'
+import QuemSou from './quemSou'
+import FisioPelvica from './fisioPelvica'
+import Noticias from './noticias'
+import Noticias2 from './noticias2'
+import Rodape from './rodape'
 
 function PaginaInicial() {
     return (
@@ -12,17 +15,19 @@ function PaginaInicial() {
                 <Menu />
                 <PrimeiraParte />
             </div>
-            <div className="container">
+            
                 <div className="row">
                     <div className="col-md-12" >
-
-                        <Slogan />
-                        <Conteudo />
+                        <Servicos />
+                        <QuemSou />
+                        <FisioPelvica />
+                        <Noticias />
+                        <Noticias2 />
                         <Rodape />
 
                     </div>
                 </div>
-            </div>
+           
         </div>
     )
 }

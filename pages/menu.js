@@ -10,12 +10,12 @@ function Menu() {
                 <div className="col-md-2">
                 </div>
                 <div className="col-md-8">
-                    <nav className="navbar navbar-expand-lg " style={{ borderColor: 'red', borderStyle: 'groove', borderTop: 'none', borderLeft: 'none', borderRight: 'none', backgroundRepeat: 'no-repeat', }}>
+                    <nav className="navbar navbar-expand-lg " style={{ borderColor: '#960202', borderStyle: 'groove', borderTop: 'none', borderLeft: 'none', borderRight: 'none', backgroundRepeat: 'no-repeat', }}>
                         <img src="https://bzfisiopelvica.com.br/wp-content/uploads/2021/01/cropped-cropped-logo_Barbara-3.png" width="8%" style={{ marginLeft: '10%', borderRadius: "50%" }}></img>
-                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                        <div className="collapse navbar-collapse" id="navbarNavDropdown" >
                             <ul className="navbar-nav" style={{ marginLeft: '20%' }}>
                                 <li className="nav-item active">
                                     <a style={{ fontWeight: 'bold', fontFamily: 'roboto', color: '#960202', fontSize: '15px' }} className="nav-link" href="#">SOBRE <span className="sr-only" >(current)</span></a>
@@ -27,7 +27,7 @@ function Menu() {
                                     <a style={{ fontWeight: 'bold', fontFamily: 'roboto', color: '#960202', fontSize: '15px' }} className="nav-link" href="#">FISIO PÉLVICA</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a style={{ fontWeight: 'bold', fontFamily: 'roboto', color: '#960202', fontSize: '15px' }} className="nav-link" href="#">INSIGHTS</a>
+                                    <a style={{ fontWeight: 'bold', fontFamily: 'roboto', color: '#960202', fontSize: '15px' }} className="nav-link" href="#">NOTÍCIAS</a>
                                 </li>
                                 <li className="nav-item">
                                     <a style={{ fontWeight: 'bold', fontFamily: 'roboto', color: '#960202', fontSize: '15px' }} className="nav-link" href="#">POSTAGENS</a>
@@ -69,9 +69,11 @@ function Menu() {
 
                 </div>
                 <div className="col-md-2">
-                                <p></p>
+                    <p></p>
                 </div>
+
             </div>
+            {/* <h5 style={{ textAlign: 'center' ,}}>Fisioterapeuta 🐍⚡ Especializada Uroginecologia/Obstetrícia🌺 Instrutora Pilates clínico 🤸🏻‍♀️ 📌 Vila da Penha/RJ</h5> */}
 
         </div>
     )

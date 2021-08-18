@@ -4,14 +4,6 @@ function Conteudo() {
 
     return (
         <div>
-            <hr></hr>
-            <div className="row">
-                <div className="col-md-12">
-                    <div className="">
-                        <img width="100%" src="https://jonz.com.br/bzuzarte/conteudo/quem_sou_eu.jpg" />
-                    </div>
-                </div>
-            </div>
             <hr style={{ marginTop: '5%' }}></hr>
             {/* Segundo bloco de itens */}
             <div id="noticias" className="col-md-12">
