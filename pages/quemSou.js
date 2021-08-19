@@ -1,6 +1,6 @@
 function QuemSou() {
     return (
-        <div className='row' style={{ backgroundColor: '#e3a8aa', }}>
+        <div className='row' style={{ backgroundColor: '#e3a8aa', textAlign:'center' }}>
             <div className='container'>
                 <div className='row'>
                     <div  className='col-md-12'>

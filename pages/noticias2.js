@@ -64,7 +64,7 @@ function Noticias2() {
                     </div>
                 </div>
 
-                <div className='row'>
+                {/* <div className='row'>
                     <div className='col-md-6' style={{ textAlign: 'center', color: '#960202' }}>
                         <h1 style={{ fontFamily: 'roboto', color: '#960202', textAlign: 'center', color: '#960202', marginBottom: '10%', marginTop: '20%' , textAlign: 'center' }}>Educador perineal: você já conhecia?</h1>
                         <h3 style={{ fontFamily: 'roboto', color: '#960202', textAlign: 'center' }}>Usamos o educador para ensinar para as pacientes o jeito certo de contrair os músculos pélvicos.
@@ -75,7 +75,7 @@ function Noticias2() {
                     <div className='col-md-6' style={{textAlign: 'center', color: '#960202', marginBottom: '10%', marginTop: '20%'}} >
                         <ReactPlayer url="https://www.youtube.com/watch?v=rGb2DNFVbaI" controls />
                     </div>
-                </div>
+                </div> */}
 
                 <div className='row'>
                 <div className='col-md-12' style={{ marginTop: '20%', }}>

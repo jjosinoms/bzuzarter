@@ -4,7 +4,6 @@ import PrimeiraParte from './primeiraParte'
 import Servicos from './servicos'
 import QuemSou from './quemSou'
 import FisioPelvica from './fisioPelvica'
-import Noticias from './noticias'
 import Noticias2 from './noticias2'
 import Rodape from './rodape'
 
@@ -16,7 +15,6 @@ function PaginaInicial() {
 
             <Servicos />
             <FisioPelvica />
-            {/* <Noticias /> */}
             <Noticias2 />
             <QuemSou />
             <Rodape />

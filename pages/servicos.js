@@ -1,8 +1,7 @@
 function Servicos() {
 
     return (
-        <div className='row' style={{ backgroundColor: 'white' }}>
-            
+        <div className='row' style={{ backgroundColor: 'white' }}>            
             <div className='container'>
                 <div className='row'>
                     <div id="servicos" className='col-md-12' style={{ marginTop: '15%'}}>
