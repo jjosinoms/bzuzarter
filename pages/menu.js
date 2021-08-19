@@ -1,11 +1,14 @@
 import React from 'react'
+import * as Scroll from 'react-scroll';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 
 function Menu() {
     return (
-            <div className='row'>
+            <div className='row' >
                 <div className='col-md-3 '>
                 </div>
-                <div className='col-md-6'  id="primeiraParte">
+                <div className='col-md-6'  id="primeiraParte" >
                     <nav className="navbar navbar-expand-lg navbar-light bg- " style={{ borderColor: '#960202', borderStyle: 'groove', borderTop: 'none', borderLeft: 'none', borderRight: 'none', backgroundRepeat: 'no-repeat', }}  >
                         <img src="https://bzfisiopelvica.com.br/wp-content/uploads/2021/01/cropped-cropped-logo_Barbara-3.png" width="10%" />
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
