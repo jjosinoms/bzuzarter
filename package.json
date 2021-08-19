@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/jjosinoms/bzuzarter#readme",
   "dependencies": {
+    "instagram-web-api": "^2.2.2",
     "next": "^10.0.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

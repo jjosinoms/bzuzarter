@@ -1,7 +1,7 @@
 
 function PrimeiraParte() {
     return (
-        <div className='col-md-12' style={{ backgroundImage: "url('https://jonz.com.br/bzuzarte/fundo%20blur.png')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', }}>
+        <div  className='col-md-12' style={{ backgroundImage: "url('https://jonz.com.br/bzuzarte/fundo%20blur.png')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', }}>
             <div className='row'>
                 <div className='col-md-4'>
                 </div>

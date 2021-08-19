@@ -11,24 +11,19 @@ import Rodape from './rodape'
 function PaginaInicial() {
     return (
         <div>
-            <div className="Teste">
-                <Menu />
-                <PrimeiraParte />
-            </div>
-            
-                <div className="row">
-                    <div className="col-md-12" >
-                        <Servicos />
-                        <QuemSou />
-                        <FisioPelvica />
-                        <Noticias />
-                        <Noticias2 />
-                        <Rodape />
+            <Menu />
+            <PrimeiraParte />
 
-                    </div>
-                </div>
-           
+            <Servicos />
+            <FisioPelvica />
+            {/* <Noticias /> */}
+            <Noticias2 />
+            <QuemSou />
+            <Rodape />
+
+
         </div>
+
     )
 }
 

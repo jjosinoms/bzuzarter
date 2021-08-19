@@ -2,10 +2,15 @@ function QuemSou() {
     return (
         <div className='row' style={{ backgroundColor: '#e3a8aa', }}>
             <div className='container'>
-                <center style={{ marginTop: '15%', color: '#960202' }} >
-                    <img src='https://jonz.com.br/bzuzarte/quem-sou-eupergunta%20(1).png' />
-                </center>
                 <div className='row'>
+                    <div  className='col-md-12'>
+                        <center id='sobre' style={{ marginTop: '15%', color: '#960202' }} >
+                            <img  src='https://jonz.com.br/bzuzarte/quem-sou-eupergunta%20(1).png' />
+                        </center>
+                    </div>
+                </div>
+                <div className='row'>
+
                     <div className='col-md-6'>
                         <img style={{ marginTop: '25%' }} width='90%' src='https://jonz.com.br/bzuzarte/Foto-para-ser-posta-em-quem-sou-1-1024x977%20(1).png' />
                         {/* <img style={{ width: '30%', }} src='https://jonz.com.br/bzuzarte/nova-foto-Barbara-2%20(1).png' /> */}

@@ -5,7 +5,7 @@ function Servicos() {
             
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-12' style={{ marginTop: '15%'}}>
+                    <div id="servicos" className='col-md-12' style={{ marginTop: '15%'}}>
                         <h1 style={{ marginBottom: '5%', textAlign: 'center', color: '#960202', fontFamily: 'roboto' }}>Atendimentos</h1>
                         <h3 style={{ textAlign: 'center', color: '#960202' ,fontFamily: 'roboto',}}>
 
@@ -24,7 +24,7 @@ function Servicos() {
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col-md-12' style={{ marginTop:'20%', marginBottom:'10%'}}>
+                    <div className='col-md-12' style={{ marginTop:'20%', marginBottom:'12%'}}>
                         <center>
                             <img src='https://jonz.com.br/bzuzarte/rodape.png' />
                         </center>

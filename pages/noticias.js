@@ -2,10 +2,10 @@ import ReactPlayer from 'react-player';
 
 function Noticias() {
     return (
-        <div style={{ backgroundColor: '#e3a8aa', }}>
+        <div style={{ backgroundColor: 'white', }}>
             <div className='container' >
                 <div className='row'>
-                    <div className='col-md-12'>
+                    <div id='noticias' className='col-md-12'>
                         <center style={{ color: '#960202', }} >
                             <h1 style={{ textAlign: 'center', color: '#960202', marginBottom: '10%', marginTop: '20%' }}>Notícias</h1>
                         </center>
