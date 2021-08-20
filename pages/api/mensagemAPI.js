@@ -19,8 +19,8 @@ async function CadastrarUsuario(req, res) {
             case 'POST':
                 try{
                    
-                    const usuario = await db.collection('mensagensBarbara').insertOne(req.body);
-                    res.status(201).json({success: true , data: usuario})
+                    const mensagensBarbara = await db.collection('mensagensBarbara').insertOne(req.body);
+                    res.status(201).json({success: true , data: mensagensBarbara})
 
                 }catch{
                     res.status(400).json({success: false})

@@ -4,6 +4,7 @@ import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
 
+
 // para funcionar a Modal é necessario instalar " npm install @material-ui/core "
 
 
@@ -17,11 +18,36 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: theme.palette.background.paper,
         border: '2px solid #000',
         boxShadow: theme.shadows[5],
-        padding: theme.spacing(2, 4, 3),
+        padding: theme.spacing(2, 10, 5),
     },
 }));
 
 function MinhaModal() {
+
+    // CADASTRO DO USUARIO PELA MODAL
+
+    const registerUser = async event => {
+        event.preventDefault() // don't redirect the page
+        // where we'll add our form logic
+        const res = await fetch('/api/mensagemAPI',
+            {
+                body: JSON.stringify({
+                    nome: event.target.nome.value,
+                    telefone: event.target.telefone.value,
+                    email: event.target.email.value,
+                }),
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                method: 'POST'
+            }
+        )
+
+        const result = await res.json()
+
+        location.reload();
+    }
+    // FIM CODIGO CADASTRO USUARIO 
     const classes = useStyles();
     const [open, setOpen] = React.useState(false);
 
@@ -52,13 +78,37 @@ function MinhaModal() {
                 }}
             >
                 <Fade in={open}>
-                    <div className={classes.paper}>
-                        <h2 id="transition-modal-title">Transition modal</h2>
-                        <p id="transition-modal-description">react-transition-group animates me.</p>
+                    <div className={classes.paper} >
+
+                        <h2 style={{ textAlign: 'center' }}>Agendar Consulta</h2><br></br>
+                        <form className="form-inline col-md-8" onSubmit={registerUser}>
+                            <div className='row' >
+                                <div className='col-md-4'>
+                                    <h4>Nome</h4>
+                                    <input size="10" className="form-control" type="text" name="nome" id="nome" placeholder="Nome"></input>
+                                </div>
+                                <div className='col-md-4'>
+                                    <h4>E-Mail</h4>
+                                    <input size="10" className="form-control" type="email" name="email" id="email" placeholder="E-Mail" ></input>
+                                </div>
+                                <div className='col-md-4'>
+                                    <h4>Telefone</h4>
+                                    <input size="10" className="form-control" type="text" name="telefone" id="telefone" placeholder="(21) 99999-9999"></input>
+                                </div>
+                            </div>
+                            <div className='row'>
+                                <div className='col-md-2'><br></br>
+                                </div>
+                                <div className='col-md-10'>
+                                    <button style={{ float: 'right' }} className="btn btn-success" type="submit" >Cadastrar</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
+
                 </Fade>
             </Modal>
-        </div>
+        </div >
     );
 }
 
