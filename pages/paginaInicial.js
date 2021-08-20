@@ -5,6 +5,7 @@ import Servicos from './servicos'
 import QuemSou from './quemSou'
 import FisioPelvica from './fisioPelvica'
 import Noticias2 from './noticias2'
+import InstagramFeed from './instagram'
 import Rodape from './rodape'
 
 function PaginaInicial() {
@@ -16,6 +17,7 @@ function PaginaInicial() {
             <Servicos />
             <FisioPelvica />
             <Noticias2 />
+            <InstagramFeed />
             <QuemSou />
             <Rodape />
 
