@@ -1,4 +1,6 @@
 
+import MinhaModal from "./modalFormulario"
+
 function PrimeiraParte() {
     return (
         <div className='col-md-12' style={{ backgroundImage: "url('https://jonz.com.br/bzuzarte/fundo%20blur.png')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', }}>
@@ -10,7 +12,8 @@ function PrimeiraParte() {
                     <h1 style={{ fontWeight: 'bold', textAlign: 'center', fontFamily: 'roboto', color: '#960202', }}>UROGINECOLOGIA E OBSTETRÍCIA</h1>
                     <h1 style={{ fontWeight: 'bold', textAlign: 'center', marginTop: '5%', fontFamily: 'roboto', color: '#960202', }}>BARBARA ZUZARTE</h1>
                     <h4 style={{ fontWeight: 'bold', textAlign: 'center', marginTop: '5%', fontFamily: 'roboto', color: '#960202', }}>SE CUIDAR É SEMPRE IMPORTANTE</h4>
-                    <h3 style={{ textAlign: 'center', marginTop: '5%', marginBottom: '10%', float: 'inline-end', fontFamily: 'roboto', color: '#960202', }}> <button className='btn btn-danger btn-lg'>Agendar Consulta</button></h3>
+                    <MinhaModal/>
+                   
                     <h5 style={{ backgroundColor: '', textAlign: 'center', marginBottom: '0%', float: 'right' }}>Fisioterapeuta 🐍⚡ Especializada Uroginecologia/Obstetrícia🌺 Instrutora Pilates clínico 🤸🏻‍♀️ 📌 Vila da Penha/RJ</h5>
                 </div>
             </div>
@@ -23,7 +26,8 @@ function PrimeiraParte() {
         </div>
 
     )
-}
 
+    
+}
 
 export default PrimeiraParte
