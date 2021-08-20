@@ -11,7 +11,7 @@ async function CadastrarUsuario(req, res) {
         const { method } = req;
         switch (method) {
             case 'GET':                
-                const data = await db.collection('users').find().toArray();
+                const data = await db.collection('mensagens').find().toArray();
                 console.log("result:", data)
                 res.status(200).json(data);
 
@@ -19,7 +19,7 @@ async function CadastrarUsuario(req, res) {
             case 'POST':
                 try{
                    
-                    const usuario = await db.collection('users').insertOne(req.body);
+                    const usuario = await db.collection('mensagens').insertOne(req.body);
                     res.status(201).json({success: true , data: usuario})
 
                 }catch{
