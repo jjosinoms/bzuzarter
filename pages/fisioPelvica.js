@@ -7,10 +7,10 @@ function FisioPelvica() {
                 <div className='row' style={{ marginTop: '10%' }}>
                     <div className='col-md-4' >
                         <center>
-                            <div className="flip-container" >
+                            <div className="flip-container" style={{ margin:'15%'}}>
                                 <div className="flipper">
                                     <div className="front">
-                                        <img width='100%' src="https://jonz.com.br/bzuzarte/conteudo/vaginismo%20nova.jpg" />
+                                        <img  width='100%' src="https://jonz.com.br/bzuzarte/conteudo/vaginismo%20nova.jpg" />
                                     </div>
                                     <div className="back" style={{ backgroundColor: 'white', width: '100%' }}>
                                         <h2 style={{ fontFamily: 'roboto', color: 'black' }}>Vaginismo</h2>
@@ -21,10 +21,10 @@ function FisioPelvica() {
                             </div>
                         </center>
                     </div>
-                    <div className='col-md-4' >
+                    <div className='col-md-4'  >
                         <center>
-                            <div className="flip-container" >
-                                <div className="flipper">
+                            <div className="flip-container" style={{ margin:'15%'}}>
+                                <div className="flipper" >
                                     <div className="front">
                                         <img width='100%' src="https://jonz.com.br/bzuzarte/conteudo/diastase%20abdominal%20nova%202.png" />
                                     </div>
@@ -37,9 +37,9 @@ function FisioPelvica() {
                             </div>
                         </center>
                     </div>
-                    <div className='col-md-4'>
+                    <div className='col-md-4' >
                         <center>
-                            <div className="flip-container" >
+                            <div className="flip-container" style={{ margin:'15%'}}>
                                 <div className="flipper">
                                     <div className="front">
                                         <img width='100%' src="https://jonz.com.br/bzuzarte/conteudo/obstetricia%20nova.png" />
@@ -53,10 +53,10 @@ function FisioPelvica() {
                         </center>
                     </div>
                 </div>
-                <div className='row' style={{ marginTop: '15%' }}>
+                <div className='row' >
                     <div className='col-md-4'>
                         <center>
-                            <div className="flip-container" >
+                            <div className="flip-container" style={{ margin:'15%'}}>
                                 <div className="flipper">
                                     <div className="front">
                                         <img width='100%' src="https://jonz.com.br/bzuzarte/conteudo/vulvodinia%20nova%20.png" />
@@ -70,19 +70,9 @@ function FisioPelvica() {
                             </div>
                         </center>
                     </div>
-                    <div className='col-md-4'>
-                        {/* <center>
-                            <div className="card" style={{ width: '18rem', borderStyle: 'none' }}>
-                                <img className="card-img-top" src="https://jonz.com.br/bzuzarte/conteudo/endometriose%20nova.png" />
-                                <div className="card-body">
-                                    <p className="card-text" style={{ fontFamily: 'roboto', color: '#960202', fontSize: '18px' }}>Endometriose é uma condição na qual o endométrio, mucosa que reveste a parede interna do útero, cresce em outras regiões do corpo.
-                                        Alguns sintomas da doença são: dores no período menstrual, infertilidade e dores nas relações sexuais, especialmente com penetração profunda.</p>
-                                </div>
-
-                            </div>
-                        </center> */}
+                    <div className='col-md-4' >
                         <center>
-                            <div className="flip-container" >
+                            <div className="flip-container" style={{ margin:'15%'}}>
                                 <div className="flipper">
                                     <div className="front">
                                         <img width='100%' src="https://jonz.com.br/bzuzarte/conteudo/endometriose%20nova.png" />
@@ -98,7 +88,7 @@ function FisioPelvica() {
                     </div>
                     <div className='col-md-4'>
                         <center>
-                            <div className="flip-container" >
+                            <div className="flip-container" style={{ margin:'15%'}}>
                                 <div className="flipper">
                                     <div className="front">
                                         <img width='100%' src="https://jonz.com.br/bzuzarte/conteudo/Dispareunia2.png" />
