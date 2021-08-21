@@ -19,12 +19,14 @@
   "homepage": "https://github.com/jjosinoms/bzuzarter#readme",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
+    "@zeit/next-sass": "^1.0.1",
     "config": "^3.3.6",
     "instagram-web-api": "^2.2.2",
     "micromodal": "^0.4.6",
     "mongodb": "^4.1.0",
     "mongoose": "^5.13.7",
     "next": "^10.0.3",
+    "node-sass": "^6.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.1",
     "react-iframe": "^1.8.0",
@@ -32,6 +34,7 @@
     "react-player": "^2.9.0",
     "react-scroll": "^1.8.3",
     "rest-api-request": "^0.6.1",
-    "rest-api-response": "^0.7.83"
+    "rest-api-response": "^0.7.83",
+    "sass": "^1.38.0"
   }
 }

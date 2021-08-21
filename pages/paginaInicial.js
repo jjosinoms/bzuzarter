@@ -17,7 +17,7 @@ function PaginaInicial() {
             <Servicos />
             <FisioPelvica />
             <Noticias2 />
-            <InstagramFeed />
+            {/* <InstagramFeed /> */}
             <QuemSou />
             <Rodape />
 
