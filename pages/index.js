@@ -3,7 +3,7 @@ import PaginaInicial from './paginaInicial';
 
 function Home() {
     return (
-        <div>
+        <div >
             <link rel="stylesheet" href='../'></link>
             <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
