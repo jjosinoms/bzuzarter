@@ -4,7 +4,7 @@ function QuemSou() {
             <div className='container'>
                 <div className='row'>
                     <div  className='col-md-12'>
-                        <center id='sobre' style={{ marginTop: '15%', color: '#960202' }} >
+                        <center id='sobre' style={{ marginTop: '8%', color: '#960202' }} >
                             <img  src='https://jonz.com.br/bzuzarte/quem-sou-eupergunta%20(1).png' />
                         </center>
                     </div>
@@ -16,7 +16,7 @@ function QuemSou() {
                         {/* <img style={{ width: '30%', }} src='https://jonz.com.br/bzuzarte/nova-foto-Barbara-2%20(1).png' /> */}
                         {/* float: 'right' */}
                     </div>
-                    <div className='col-md-6' style={{ marginTop: '10%', marginBottom: '25%', color: '#960202' }}>
+                    <div className='col-md-6' style={{ marginTop: '10%', marginBottom: '10%', color: '#960202' }}>
                         <h3 style={{ fontFamily: 'roboto', color: '#960202' }}>Olá! Meu nome é Barbara Zuzarte, sou fisioterapeuta com especialização em uroginecologia e obstetrícia.
 
                             Me formei como fisioterapeuta pela Universidade Veiga de Almeida em 2016, e finalizei minha pós-graduação em 2018.

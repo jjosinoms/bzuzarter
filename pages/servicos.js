@@ -33,7 +33,7 @@ function Servicos() {
                     </div>
                 </center>
                 <div className='row'>
-                    <div className='col-md-12' style={{ marginTop: '20%', marginBottom: '1%' }}>
+                    <div className='col-md-12' style={{ marginTop: '5%', marginBottom: '1%' }}>
                         <center>
                             <img src='https://jonz.com.br/bzuzarte/rodape.png' />
                         </center>

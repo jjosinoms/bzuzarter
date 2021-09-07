@@ -3,7 +3,7 @@ function FisioPelvica() {
     return (
         <div className='row'>
             <div className='container' style={{ marginTop: '10%' }}>
-                <h1 id='fisioPelvica' style={{ marginBottom: '5%', textAlign: 'center', color: '#960202' }}>Fisio Pélvica</h1>
+                <h1 id='fisioPelvica' style={{ marginBottom: '1%', textAlign: 'center', color: '#960202' }}>Fisio Pélvica</h1>
                 <div className='row' style={{ marginTop: '10%' }}>
                     <div className='col-md-4' >
                         <center>
@@ -105,7 +105,7 @@ function FisioPelvica() {
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col-md-12' style={{ marginTop: '20%', marginBottom: '10%' }}>
+                    <div className='col-md-12' style={{ marginTop: '8%', marginBottom: '1%' }}>
                         <center>
                             <img src='https://jonz.com.br/bzuzarte/rodape.png' />
                         </center>

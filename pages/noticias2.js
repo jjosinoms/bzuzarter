@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player';
 function Noticias2() {
     return (
 
-        <div style={{ backgroundColor: 'white', marginBottom: '10%', }}>
+        <div style={{ backgroundColor: 'white', marginBottom: '5%', }}>
             <div className='container' >
             <div className='row'>
                     <div id='noticias' className='col-md-12'>
@@ -78,7 +78,7 @@ function Noticias2() {
                 </div> */}
 
                 <div className='row'>
-                <div className='col-md-12' style={{ marginTop: '20%', }}>
+                <div className='col-md-12' style={{ marginTop: '5%', }}>
                     <center>
                         <img src='https://jonz.com.br/bzuzarte/rodape.png' />
                     </center>
