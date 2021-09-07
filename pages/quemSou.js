@@ -1,6 +1,6 @@
 function QuemSou() {
     return (
-        <div className='row' style={{ backgroundColor: '#e3a8aa', textAlign:'center' }}>
+        <div className='row' style={{ backgroundColor: '#F8F8FF', textAlign:'center' }}>
             <div className='container'>
                 <div className='row'>
                     <div  className='col-md-12'>
@@ -21,7 +21,7 @@ function QuemSou() {
 
                             Me formei como fisioterapeuta pela Universidade Veiga de Almeida em 2016, e finalizei minha pós-graduação em 2018.
 
-                            Tenho diversos cursos na área, mas o que mais amo tratar dentro do consultório são as disfunções sexuais famininas e disfunções miccionais.
+                            Tenho diversos cursos na área, mas o que mais amo tratar dentro do consultório são as disfunções sexuais femininas e disfunções miccionais.
 
                             Espero que você goste de conhecer um pouco do meu trabalho navegando por aqui e, em breve, agende sua avaliação .
 
