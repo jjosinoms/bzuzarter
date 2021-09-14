@@ -44,7 +44,7 @@ function MinhaModal() {
         )
 
         const result = await res.json()
-
+        handleClose();
         location.reload();
     }
     // FIM CODIGO CADASTRO USUARIO 
