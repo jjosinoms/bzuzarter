@@ -1,4 +1,5 @@
 
+import MinhaModal from "./modalFormulario"
 function FisioPelvica() {
     return (
         <div className='row'>
@@ -16,6 +17,7 @@ function FisioPelvica() {
                                         <h2 style={{ fontFamily: 'roboto', color: 'black' }}>Vaginismo</h2>
                                         <p style={{ fontFamily: 'roboto', color: '#960202', fontSize: '15px' }}> Vaginismo é caracterizado pela contração involuntária dos músculos pélvicos,
                                             podendo impedir total ou parcialmente a introdução de pênis e objetos como, por exemplo, um absorvente interno, coletor menstrual ou um espéculo de exame ginecológico. </p>
+                                            <MinhaModal/>
                                     </div>
                                 </div>
                             </div>
@@ -32,6 +34,7 @@ function FisioPelvica() {
                                         <h2 style={{ fontFamily: 'roboto', color: 'black' }}>Diástase</h2>
                                         <p style={{ fontFamily: 'roboto', color: '#960202', fontSize: '15px' }}> A diástase abdominal é o afastamento dos músculos reo-abdominais causado por uma instabilidade da linha alba e fragilidade e disfunção de outros músculos abdominais.
                                             acontece, geralmente, em mulheres na gestação ou pós-parto. Pode acontecer em homens e mulheres que nunca tiveram filhos. </p>
+                                            <MinhaModal/>
                                     </div>
                                 </div>
                             </div>
@@ -47,6 +50,7 @@ function FisioPelvica() {
                                     <div className="back" style={{ backgroundColor: 'white', width: '100%' }}>
                                         <h2 style={{ fontFamily: 'roboto', color: 'black' }}>Obstetrícia</h2>
                                         <p style={{ fontFamily: 'roboto', color: '#960202', fontSize: '15px' }}>Obstetrícia é a atuação fisioterapêutica em gestantes, durante o trabalho de parto e no pós parto, de acordo com a necessidade individual de cada mulher. </p>
+                                        <MinhaModal/>
                                     </div>
                                 </div>
                             </div>
@@ -65,6 +69,7 @@ function FisioPelvica() {
                                         <h2 style={{ fontFamily: 'roboto', color: 'black' }}>Vulvodínia</h2>
                                         <p style={{ fontFamily: 'roboto', color: '#960202', fontSize: '15px' }}> A Vulvodínia é uma condição onde existe dor ou desconforto crônico na região da vulva. Causa sintomas como dor, irritação,
                                             vermelhidão ou sensação de picada na região genital, podendo ser confundida com candidíase e outras doenças vulvovaginais.  </p>
+                                            <MinhaModal/>
                                     </div>
                                 </div>
                             </div>
@@ -81,6 +86,7 @@ function FisioPelvica() {
                                         <h2 style={{ fontFamily: 'roboto', color: 'black' }}>Endometriose</h2>
                                         <p style={{ fontFamily: 'roboto', color: '#960202', fontSize: '15px' }}> Endometriose é uma condição na qual o endométrio, mucosa que reveste a parede interna do útero, cresce em outras regiões do corpo.
                                             Alguns sintomas da doença são: dores no período menstrual, infertilidade e dores nas relações sexuais, especialmente com penetração profunda.  </p>
+                                            <MinhaModal/>
                                     </div>
                                 </div>
                             </div>
@@ -98,6 +104,7 @@ function FisioPelvica() {
                                         <h2 style={{ fontFamily: 'roboto', color: 'black' }}>Dispareunia</h2>
                                         <p style={{ fontFamily: 'roboto', color: '#960202', fontSize: '15px' }}> Dispareunia é o nome dado ao transtorno, de causas físicas ou psicológicas,
                                             caracterizado pela dor genital durante ou após o sexo. Pode acometer homens e mulheres, embora seja mais comum no segundo grupo.  </p>
+                                            <MinhaModal/>
                                     </div>
                                 </div>
                             </div>
