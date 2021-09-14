@@ -101,7 +101,7 @@ function MinhaModal() {
                                 <div className='col-md-2'><br></br>
                                 </div>
                                 <div className='col-md-10'>
-                                    <button style={{ float: 'right' }} className="btn btn-success" type="submit" >Cadastrar</button>
+                                    <button style={{ float: 'right' }} className="btn btn-success" type="submit" >Agendar</button>
                                 </div>
                             </div>
                         </form>
