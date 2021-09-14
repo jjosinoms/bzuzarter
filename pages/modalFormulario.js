@@ -45,7 +45,8 @@ function MinhaModal() {
 
         const result = await res.json()
         handleClose();
-        location.reload();
+        alert("Consulta registrada!")
+        
     }
     // FIM CODIGO CADASTRO USUARIO 
     const classes = useStyles();
