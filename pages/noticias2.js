@@ -5,7 +5,7 @@ function Noticias2() {
 
         <div style={{ backgroundColor: 'white', marginBottom: '5%', }}>
             <div className='container' >
-            <div className='row'>
+                <div className='row'>
                     <div id='noticias' className='col-md-12'>
                         <center style={{ color: '#960202', }} >
                             <h1 style={{ textAlign: 'center', color: '#960202', marginBottom: '10%', marginTop: '20%' }}>Notícias</h1>
@@ -78,13 +78,13 @@ function Noticias2() {
                 </div> */}
 
                 <div className='row'>
-                <div className='col-md-12' style={{ marginTop: '5%', }}>
-                    <center>
-                        <img src='https://jonz.com.br/bzuzarte/rodape.png' />
-                    </center>
+                    <div className='col-md-12' style={{ marginTop: '5%', }}>
+                        <center>
+                            <img src='https://jonz.com.br/bzuzarte/rodape.png' />
+                        </center>
 
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
 

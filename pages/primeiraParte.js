@@ -14,7 +14,7 @@ function PrimeiraParte() {
                     <h4 style={{ fontWeight: 'bold', textAlign: 'center', marginTop: '5%', fontFamily: 'roboto', color: '#960202', }}>SE CUIDAR É SEMPRE IMPORTANTE</h4>
                     <MinhaModal/>
                    
-                    <h5 style={{ backgroundColor: '', textAlign: 'center', marginBottom: '0%', float: 'right' }}>Fisioterapeuta 🐍⚡ Especializada Uroginecologia/Obstetrícia🌺 Instrutora Pilates clínico 🤸🏻‍♀️ 📌 Vila da Penha/RJ</h5>
+                    <h5 style={{ backgroundColor: '', textAlign: 'center',  float: 'right' }}>Fisioterapeuta 🐍⚡ Especializada Uroginecologia/Obstetrícia🌺 Instrutora Pilates clínico 🤸🏻‍♀️ 📌 Vila da Penha/RJ</h5>
                 </div>
             </div>
             {/* <div className='row'>
