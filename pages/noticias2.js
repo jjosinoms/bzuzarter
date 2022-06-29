@@ -16,7 +16,7 @@ function Noticias2() {
                 <div className='row'>
                     <div className='col-md-6'>
                         <center>
-                            <img width='90%' src='https://jonz.com.br/bzuzarte/conteudo/Barbara-foto-Circulo-1.png' />
+                            <img width='90%' src='https://i.imgur.com/xJpOs3A.png' />
                         </center>
                     </div>
                     <div className='col-md-6'>
@@ -80,7 +80,7 @@ function Noticias2() {
                 <div className='row'>
                     <div className='col-md-12' style={{ marginTop: '5%', }}>
                         <center>
-                            <img src='https://jonz.com.br/bzuzarte/rodape.png' />
+                            <img src='https://i.imgur.com/5L5HAzH.png' />
                         </center>
 
                     </div>

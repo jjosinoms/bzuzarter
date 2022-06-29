@@ -11,7 +11,7 @@ function FisioPelvica() {
                             <div className="flip-container" style={{ margin:'15%'}}>
                                 <div className="flipper">
                                     <div className="front">
-                                        <img  width='100%' src="https://jonz.com.br/bzuzarte/conteudo/vaginismo%20nova.jpg" />
+                                        <img  width='100%' src="https://i.imgur.com/3SqRSqA.jpg" />
                                     </div>
                                     <div className="back" style={{ backgroundColor: 'white', width: '100%' }}>
                                         <h2 style={{ fontFamily: 'roboto', color: 'black' }}>Vaginismo</h2>
@@ -28,7 +28,7 @@ function FisioPelvica() {
                             <div className="flip-container" style={{ margin:'15%'}}>
                                 <div className="flipper" >
                                     <div className="front">
-                                        <img width='100%' src="https://jonz.com.br/bzuzarte/conteudo/diastase%20abdominal%20nova%202.png" />
+                                        <img width='100%' src="https://i.imgur.com/BrI0QO9.png" />
                                     </div>
                                     <div className="back" style={{ backgroundColor: 'white', width: '100%' }}>
                                         <h2 style={{ fontFamily: 'roboto', color: 'black' }}>Diástase</h2>
@@ -45,7 +45,7 @@ function FisioPelvica() {
                             <div className="flip-container" style={{ margin:'15%'}}>
                                 <div className="flipper">
                                     <div className="front">
-                                        <img width='100%' src="https://jonz.com.br/bzuzarte/conteudo/obstetricia%20nova.png" />
+                                        <img width='100%' src="https://i.imgur.com/1MS5L5F.png" />
                                     </div>
                                     <div className="back" style={{ backgroundColor: 'white', width: '100%' }}>
                                         <h2 style={{ fontFamily: 'roboto', color: 'black' }}>Obstetrícia</h2>
@@ -63,7 +63,7 @@ function FisioPelvica() {
                             <div className="flip-container" style={{ margin:'15%'}}>
                                 <div className="flipper">
                                     <div className="front">
-                                        <img width='100%' src="https://jonz.com.br/bzuzarte/conteudo/vulvodinia%20nova%20.png" />
+                                        <img width='100%' src="https://i.imgur.com/qmmwag0.png" />
                                     </div>
                                     <div className="back" style={{ backgroundColor: 'white', width: '100%' }}>
                                         <h2 style={{ fontFamily: 'roboto', color: 'black' }}>Vulvodínia</h2>
@@ -80,7 +80,7 @@ function FisioPelvica() {
                             <div className="flip-container" style={{ margin:'15%'}}>
                                 <div className="flipper">
                                     <div className="front">
-                                        <img width='100%' src="https://jonz.com.br/bzuzarte/conteudo/endometriose%20nova.png" />
+                                        <img width='100%' src="https://i.imgur.com/IODTIc5.png" />
                                     </div>
                                     <div className="back" style={{ backgroundColor: 'white', width: '100%' }}>
                                         <h2 style={{ fontFamily: 'roboto', color: 'black' }}>Endometriose</h2>
@@ -97,7 +97,7 @@ function FisioPelvica() {
                             <div className="flip-container" style={{ margin:'15%'}}>
                                 <div className="flipper">
                                     <div className="front">
-                                        <img width='100%' src="https://jonz.com.br/bzuzarte/conteudo/Dispareunia2.png" />
+                                        <img width='100%' src="https://i.imgur.com/yeKn35b.png" />
                                     </div>
                                     <div className="back" style={{ backgroundColor: 'white', width: '100%' }}>
                                         {/* <div className="back" style={{ backgroundImage:"url('https://picsum.photos/id/249/300/200')" , width:'100%'}}> */}
@@ -114,7 +114,7 @@ function FisioPelvica() {
                 <div className='row'>
                     <div className='col-md-12' style={{ marginTop: '8%', marginBottom: '1%' }}>
                         <center>
-                            <img src='https://jonz.com.br/bzuzarte/rodape.png' />
+                            <img src='https://i.imgur.com/5L5HAzH.png' />
                         </center>
 
                     </div>
